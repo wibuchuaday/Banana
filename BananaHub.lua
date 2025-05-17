@@ -3,7 +3,7 @@ if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
     if getgenv().betabss then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/wibuchuaday/Banana/refs/heads/main/bssrewrite-obfuscated.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BSS-BananaCat.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wibuchuaday/Banana/refs/heads/main/BSS-BananaCat.lua"))()
     end
 elseif game.PlaceId == 10260193230 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/Seahuhu-BananaCat.lua"))()
